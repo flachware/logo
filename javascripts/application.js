@@ -11,8 +11,8 @@
       function ($http) {
         var contents = {};
 
-        $http.get('README.html').then(function (data) {
-          contents['data'] = data;
+        $http.get('README.html').then(function (response) {
+          contents['data'] = response.data;
         });
 
         return contents;
