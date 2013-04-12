@@ -1,12 +1,8 @@
 A CSL Logo
 ==========
 
-Badge Builder
-=============
-
 Downloads
 =========
-
 
 CSL Logo FAQ
 ============
