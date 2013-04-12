@@ -5,6 +5,20 @@
     'ng'
   ]).
 
+    factory('contents', [
+      '$http',
+
+      function ($http) {
+        var contents = {};
+
+        $http('README.html', function (data) {
+          contents['data'] = data;
+        });
+
+        return contents;
+      }
+    ]).
+
     directive('BadgeBuilder', [
       function () {
         return {
@@ -15,9 +29,10 @@
 
     controller('DownloadsController', [
       '$scope',
+      'contents',
 
-      function (scope) {
-        scope.text = 'Test';
+      function (scope, contents) {
+        scope.text = contents.data;
       }
     ]);
 
