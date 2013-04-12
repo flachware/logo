@@ -1,8 +1,10 @@
 (function (angular) {
   'use strict';
-  
-  angular.module('logo').
-  
+
+  angular.module('logo', [
+    'ng'
+  ]).
+
     directive('BadgeBuilder', [
       function () {
         return {
@@ -18,5 +20,5 @@
         scope.text = 'Test';
       }
     ]);
-  
+
 }(this.angular));
