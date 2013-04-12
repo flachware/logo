@@ -32,7 +32,7 @@
       'contents',
 
       function (scope, contents) {
-        scope.text = contents.data;
+        scope.contents = contents;
       }
     ]);
 
