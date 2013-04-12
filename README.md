@@ -1,4 +1,16 @@
-logo
-====
+A CSL Logo
+==========
 
-Citation Style Language logo
+Badge Builder
+=============
+
+Downloads
+=========
+
+
+CSL Logo FAQ
+============
+
+Learn More
+==========
+
