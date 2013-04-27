@@ -22,6 +22,7 @@
     directive('BadgeBuilder', [
       function () {
         return {
+          restrict: 'A',
           templateUrl: 'partials/builder'
         };
       }
